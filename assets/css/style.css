@@ -12,6 +12,12 @@ body {
   font-family: "Montserrat", sans-serif;
   color:whitesmoke;
 }
+.btn-red {
+    color: white;
+    background-color: red;
+    border-color: red; 
+
+}
 /******************************** NAV SECTION*/
 .navbar {
   width: 100%;
@@ -51,17 +57,7 @@ body {
   justify-content: center;
 }
 
-.btn {
-  margin: auto;
-  border-radius: 20%;
-  color:whitesmoke;
-  background-color: black;
-  box-shadow: 0px 15px 16px 15px rgba(243, 245, 245, 0.2),
-    0 6px 20px 0 rgba(231, 226, 226, 0.19);
-}
-.btn a:hover{
- color: #f70b0bd5 !important;
-}
+
 
 /******************************** Testimonials*/
 
@@ -96,6 +92,8 @@ hr {color:white}
     text-align: center;
     background:black;
     max-width:100%;
+    padding-left: 0px;
+    
 }
 
 .social li {
@@ -104,7 +102,7 @@ hr {color:white}
 
 .social i {
     font-size: 170%;
-    margin: 1%;
+    margin: auto;
     padding: 10%;
     padding-top: 8px;
     padding-bottom: 8px;
