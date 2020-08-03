@@ -8,16 +8,18 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background:black;
+  background: black;
   font-family: "Montserrat", sans-serif;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 .btn-red {
-    color: white;
-    background-color: red;
-    border-color: red; 
+  color: white;
+  background-color: red;
+  border-color: red;}
 
-}
+p
+{font-family: "Montserrat", sans-serif;}
+
 /******************************** NAV SECTION*/
 .navbar {
   width: 100%;
@@ -37,7 +39,9 @@ body {
   font-family: "anton", sans-serif;
 }
 
-.nav-item a {color:white !important;}
+.nav-item a {
+  color: white !important;
+}
 
 .nav-item a:hover {
   color: #f70b0bd5 !important;
@@ -47,7 +51,7 @@ body {
   height: 65vh;
   background: url("../image/man2.jpg") no-repeat center;
   background-size: cover;
-  
+
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -57,56 +61,142 @@ body {
   justify-content: center;
 }
 
-
-
 /******************************** Testimonials*/
 
 .testimonial-container {
-    width: 100%;
-    max-width: 100%;
-    height: 130px;
-    text-align:center;
-    padding-top: 20px;
-    background:red;
+  max-width: 100%;
+  height: 120px;
+  background: red;
+  line-height: 10px;
 }
 
-.testimonial-photo {
-    height:100px;
-    border-radius: 50%;
-    
+.carousel-item {
+  padding: 25px;
 }
-hr {color:white}
 
 .testimonial-text {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
-.blockquote-footer{
-    color:black;
-    font-weight:600;
+.blockquote-footer {
+  color: black;
+  font-weight: 600;
 }
 
 /********************************* Footer/social links*/
 
-.social{
-    text-align: center;
-    background:black;
-    max-width:100%;
-    padding-left: 0px;
+.social-container {
+  
+  background: black;
+  max-width: 100%;
+  padding: 0px;
+  max-height: 100%;
+}
+
+.address {
+  max-width: 100%;
+  line-height: 3px;
+  padding: 0;
+  padding-top: 25px;
+  font-family: "Monsterrat", sans-serif;
+  
+}
+
+.social {
+    
+    padding:0;
+    padding-top: 18px;
     
 }
 
 .social li {
-    display:inline;
+  display: inline;
 }
 
+
 .social i {
-    font-size: 170%;
-    margin: auto;
-    padding: 10%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    color: red;
+  font-size: 200%;
+  padding: 5%;
+  color: red;
+  
 }
+
+.contact {
+  max-width: 100%;
+  line-height: 3px;
+  padding: 0;
+  padding-top: 25px;
+  font-family: "Monsterrat", sans-serif;
+}
+
+.footer-heading {
+  color: red;
+}
+
+
+.row-eq-height { margin:auto;
+max-width:100%;
+padding:5px;}
+
+
+.footer-p a {
+  color: white !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    .nav-item-list {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    .nav-item-list li {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+  #my-content2 { display: none; }   /* hide it elsewhere */
+  #my-content { display: none; }   /* hide it elsewhere */
+
+}
+
+@media (max-width: 575px) {
+
+  #my-content2 { display: none; }   /* hide it elsewhere */
+  #my-content { display: none; }   /* hide it elsewhere */
+
+@media (max-width: 320px) {
+ #my-content2 { display: none; }   /* hide it elsewhere */
+  #my-content { display: none; }   /* hide it elsewhere */
+
+}
+
 
 
