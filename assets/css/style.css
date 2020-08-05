@@ -62,9 +62,9 @@ p
 }
 .jumbotron-classes {
   height: 45vh;
-  background: url("../image/man2.jpg") no-repeat center;
+  background: url("../image/gym9.jpg") no-repeat center;
   background-size: cover;
-
+  max-height: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,8 +109,10 @@ p
   max-width: 100%;
   line-height: 3px;
   padding: 0;
-  padding-top: 25px;
-  font-family: "Monsterrat", sans-serif;
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
   
 }
 
@@ -139,6 +141,8 @@ p
   padding: 0;
   padding-top: 25px;
   font-family: "Monsterrat", sans-serif;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
 }
 
 .footer-heading {
@@ -150,58 +154,69 @@ p
 max-width:100%;
 padding:5px;}
 
-
-.footer-p a {
-  color: white !important;
+.contact a {
+  
+  color: white !important;  
+}
+.contact a:hover{
+  color:red !important;
 }
 .social-container {
   border-top:double;
   border-color:white;
   border-width:100%;
   max-width: 100%;
-  max-height: 100%;}
+  max-height: 100%;
+  font-family: "arvo", sans-serif;}
+  
 
 
 .card-container {
 
-  height: 100%;
-  background: url("../image/man2.jpg") no-repeat center;
+  background: url("../image/gym10.jpg") no-repeat center;
   background-size: cover;
-
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  width:100%;
 
 }
 
 .card {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.8);
+  align-items:top;
 
 }
 
-.card-title {text-transform:uppercase;}
+.card-title {
+    text-transform:uppercase;
+    font-family: "anton", sans-serif;
+    letter-spacing: 3px;
+    font-size:1.5rem;
+    padding-bottom:20px;
+  
+
+}
+
+
+.card-body {
+
+padding: 30px;
+line-height: 20px;
+height: 270px;
 
 
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card-class {
+    color:red;
+    font-family: "arvo", sans-serif;
+    letter-spacing:2px;
+}
 
 
 @media (max-width: 991px) {
