@@ -47,7 +47,7 @@ p
   color: #f70b0bd5 !important;
 }
 /******************************** Jumbotron*/
-.jumbotron-section {
+.jumbotron-home {
   height: 65vh;
   background: url("../image/man2.jpg") no-repeat center;
   background-size: cover;
@@ -60,7 +60,19 @@ p
   -ms-flex-pack: center;
   justify-content: center;
 }
+.jumbotron-classes {
+  height: 45vh;
+  background: url("../image/man2.jpg") no-repeat center;
+  background-size: cover;
 
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
 /******************************** Testimonials*/
 
 .testimonial-container {
@@ -142,7 +154,36 @@ padding:5px;}
 .footer-p a {
   color: white !important;
 }
+.social-container {
+  border-top:double;
+  border-color:white;
+  border-width:100%;
+  max-width: 100%;
+  max-height: 100%;}
 
+
+.card-container {
+
+  height: 100%;
+  background: url("../image/man2.jpg") no-repeat center;
+  background-size: cover;
+
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+
+}
+
+.card {
+  background: rgba(0,0,0,0.5);
+
+}
+
+.card-title {text-transform:uppercase;}
 
 
 
