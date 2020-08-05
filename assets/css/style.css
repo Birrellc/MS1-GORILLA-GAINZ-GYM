@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-/* to stop page overflow and apply font family/color to page*/
-
 html,
 body {
   width: 100%;
@@ -12,13 +10,16 @@ body {
   font-family: "Montserrat", sans-serif;
   color: whitesmoke;
 }
+
+p
+{font-family: "Montserrat", sans-serif;}
+
+/******************************* BUTTON COLOR*/
 .btn-red {
   color: white;
   background-color: red;
   border-color: red;}
 
-p
-{font-family: "Montserrat", sans-serif;}
 
 /******************************** NAV SECTION*/
 .navbar {
@@ -46,7 +47,7 @@ p
 .nav-item a:hover {
   color: #f70b0bd5 !important;
 }
-/******************************** Jumbotron*/
+/******************************** JUMBOTRON - HOMEPAGE*/
 .jumbotron-home {
   height: 65vh;
   background: url("../image/man2.jpg") no-repeat center;
@@ -60,20 +61,8 @@ p
   -ms-flex-pack: center;
   justify-content: center;
 }
-.jumbotron-classes {
-  height: 45vh;
-  background: url("../image/gym9.jpg") no-repeat center;
-  background-size: cover;
-  max-height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-/******************************** Testimonials*/
+
+/******************************** TESTIMONIALS*/
 
 .testimonial-container {
   max-width: 100%;
@@ -95,14 +84,18 @@ p
   font-weight: 600;
 }
 
-/********************************* Footer/social links*/
+/********************************* FOOTER/SOCIAL LINKS*/
 
 .social-container {
   
   background: black;
-  max-width: 100%;
   padding: 0px;
+  border-top:double;
+  border-color:white;
+  border-width:100%;
+  max-width: 100%;
   max-height: 100%;
+  font-family: "arvo", sans-serif;
 }
 
 .address {
@@ -150,10 +143,6 @@ p
 }
 
 
-.row-eq-height { margin:auto;
-max-width:100%;
-padding:5px;}
-
 .contact a {
   
   color: white !important;  
@@ -161,15 +150,30 @@ padding:5px;}
 .contact a:hover{
   color:red !important;
 }
-.social-container {
-  border-top:double;
-  border-color:white;
-  border-width:100%;
-  max-width: 100%;
-  max-height: 100%;
-  font-family: "arvo", sans-serif;}
-  
 
+
+
+/************* GALLERY*/
+.row-eq-height { 
+    margin:auto;
+    max-width:100%;
+    padding:5px;}
+  
+/************* classes page*/
+
+.jumbotron-classes {
+  height: 45vh;
+  background: url("../image/gym9.jpg") no-repeat center;
+  background-size: cover;
+  max-height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
 
 .card-container {
 
@@ -217,6 +221,44 @@ height: 270px;
     font-family: "arvo", sans-serif;
     letter-spacing:2px;
 }
+
+
+/********** CONTACT PAGE*/
+
+.contact-container {
+    background: url("../image/gym11.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    padding: 0px;
+}
+
+.contact-form {
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.form-btn {
+    margin-top: 20px;
+    padding: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 991px) {
