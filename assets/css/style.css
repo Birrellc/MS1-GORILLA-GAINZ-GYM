@@ -66,7 +66,7 @@ body {
 
 
 /******************* JUMBOTRON-HOMEPAGE*/
-.jumbotron-home {
+.jumbotron {
     height: 65vh;
     background: url("../image/homepage-hero-image.png") no-repeat center;
     background-size: cover;
@@ -76,8 +76,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top:double;
     border-bottom:double;
+    margin-bottom:0;
 }
 .jumbotron-subtext {
     color:#fafafa !important;
@@ -241,7 +241,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-top:double;
     border-bottom:double;
 }
 
