@@ -64,7 +64,7 @@ body {
 /******************* JUMBOTRON-HOMEPAGE*/
 .jumbotron-home {
   height: 65vh;
-  background: url("../image/man2.jpg") no-repeat center;
+  background: url("../image/homepage-hero-image.png") no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -225,7 +225,7 @@ body {
 
 .jumbotron-classes {
   height: 45vh;
-  background: url("../image/gym9.jpg") no-repeat center;
+  background: url("../image/classes-hero-image.png") no-repeat bottom;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -243,7 +243,7 @@ body {
 
 .card-container {
 
-  background: url("../image/gym10.jpg") no-repeat center;
+  background: url("../image/classes-card-background.png") no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -291,7 +291,7 @@ height: 270px;
 /******************* CONTACT PAGE*/
 
 .contact-container {
-    background: url("../image/gym11.jpg") no-repeat center;
+    background: url("../image/contact-background.png") no-repeat center;
     background-size: cover;
     background-position: center;
     height: 900px;
