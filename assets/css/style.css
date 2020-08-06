@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* taken and expanded upon from css tricks - link in README */
 html,
 body {
   width: 100%;
@@ -14,14 +15,14 @@ body {
 
 /******************* BUTTON COLOR/MISC*/
 .btn-red {
-  color: white;
-  background-color: red;
-  border-color: red;}
+    color: white;
+    background-color: red;
+    border-color: red;}
 
 .btn-red:hover{
-  background-color:#bb0000;
-  border-color: #bb0000;
-  color: black;}
+    background-color:#bb0000;
+    border-color: #bb0000;
+    color: black;}
 
 .uppercase {text-transform:uppercase;}
 
@@ -29,33 +30,37 @@ body {
 
 /******************* NAVIGATION*/
 .navbar {
-  width: 100%;
-  background: black;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: black;
+    z-index: 1;
+
 }
 
 .logo {
-  height: 100px;
-  width: 10%;
+    height: 100px;
+    width: 10%;
 }
 .nav-item-list{
-  flex-direction: row-reverse;
-  text-transform: uppercase;
+    flex-direction: row-reverse;
+    text-transform: uppercase;
 }
 
 .heading {
-  color: red;
-  padding-top: 8px;
-  padding-left: 10px;
-  font-size: 2rem;
-  font-family: "anton", sans-serif;
+    color: red;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-size: 2rem;
+    font-family: "anton", sans-serif;
 }
 
 .nav-item a {
-  color: white !important;
+    color: white !important;
 }
 
 .nav-item a:hover {
-  color: #f70b0bd5 !important;
+    color: #f70b0bd5 !important;
 }
 
 /******************* NAVIGATION END*/
@@ -63,17 +68,17 @@ body {
 
 /******************* JUMBOTRON-HOMEPAGE*/
 .jumbotron-home {
-  height: 65vh;
-  background: url("../image/homepage-hero-image.png") no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top:double;
-  border-bottom:double;
+    height: 65vh;
+    background: url("../image/homepage-hero-image.png") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:double;
+    border-bottom:double;
 }
 .jumbotron-subtext {
     color:#fafafa !important;
@@ -99,23 +104,23 @@ body {
 /******************* TESTIMONIALS*/
 
 .testimonial-container {
-  max-width: 100%;
-  height: 120px;
-  background: red;
-  line-height: 10px;
+    max-width: 100%;
+    height: 120px;
+    background: red;
+    line-height: 10px;
 }
 
 .carousel-item {
-  padding: 25px;
+    padding: 25px;
 }
 
 .testimonial-text {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .blockquote-footer {
-  color: black;
-  font-weight: 600;
+    color: black;
+    font-weight: 600;
 }
 
 /******************* TESTIMONIALS END*/
@@ -124,24 +129,24 @@ body {
 
 .social-container {
   
-  background: black;
-  padding: 0px;
-  border-top:double;
-  border-color:white;
-  border-width:100%;
+    background: black;
+    padding: 0px;
+    border-top:double;
+    border-color:white;
+    border-width:100%;
 }
 .footer-paragraph {
     font-family: "Montserrat", sans-serif;
-    }
+}
 .address {
-  max-width: 100%;
-  line-height: 3px;
-  padding: 0;
-  padding-top: 20px;
-  font-family: "Montserrat", sans-serif;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  font-size:0.5rem;
+    max-width: 100%;
+    line-height: 3px;
+    padding: 0;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size:0.5rem;
   
 }
 
@@ -153,42 +158,42 @@ body {
 }
 
 .social li {
-  display: inline;
+    display: inline;
 }
 
 
 .social i {
-  font-size: 200%;
-  padding: 5%;
-  color: red;
+    font-size: 200%;
+    padding: 5%;
+    color: red;
   
 }
 
 .contact {
-  max-width: 100%;
-  line-height: 3px;
-  padding: 0;
-  padding-top: 20px;
-  font-family: "Monsterrat", sans-serif;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
-  font-size: 0.5rem;
+    max-width: 100%;
+    line-height: 3px;
+    padding: 0;
+    padding-top: 20px;
+    font-family: "Monsterrat", sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 0.5rem;
 }
 
 .footer-paragraph {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .footer-heading {
-  color: red;
+    color: red;
 }
 
 .contact a {
   
-  color: white !important;  
+    color: white !important;  
 }
 .contact a:hover{
-  color:red !important;
+    color:red !important;
 }
 /******************* FOOTER END*/
 
@@ -208,6 +213,10 @@ body {
 
 /************* GALLERY*/
 
+.carousel-container {
+    border-top:double;
+}
+
 .row-eq-height { 
     margin:auto;
     max-width:100%;
@@ -224,17 +233,17 @@ body {
 /******************* CLASSES PAGE*/
 
 .jumbotron-classes {
-  height: 45vh;
-  background: url("../image/classes-hero-image.png") no-repeat bottom;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-top:double;
-  border-bottom:double;
+    height: 60vh;
+    background: url("../image/classes-hero-image.png") no-repeat bottom;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:double;
+    border-bottom:double;
 }
 
 .classes-jumbotron {
@@ -243,20 +252,20 @@ body {
 
 .card-container {
 
-  background: url("../image/classes-card-background.png") no-repeat center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    background: url("../image/classes-card-background.png") no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 .card {
-  background: rgba(0,0,0,0.8);
-  align-items:top;
+    background: rgba(0,0,0,0.8);
+    align-items:top;
 
 }
 
@@ -272,13 +281,9 @@ body {
 
 
 .card-body {
-
-padding: 30px;
-line-height: 20px;
-height: 270px;
-
-
-
+    padding: 30px;
+    line-height: 20px;
+    height: 270px;
 }
 
 .card-class {
@@ -311,53 +316,17 @@ height: 270px;
     }
 
 
+
+.contactus2-container {
+    background-color: rgba(255, 254, 254, 0.5);
+    height:45vh;
+}
+
+.locate-map {
+   
+    max-height: 70%;
+}
+
 /******************* CONTACT PAGE END*/
-
-
-
-
-
-
-
-
-
-@media (max-width: 991px) {
-    .nav-item-list {
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        -moz-box-flex: end;
-        text-align: center;
-        text-transform: uppercase;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-size: 1.15rem;
-    }
-    
-    .nav-item-list li {
-        -webkit-box-pack: end;
-        -ms-flex-pack: end;
-        -moz-box-flex: end;
-        text-align: center;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        text-transform: uppercase;
-
-    }
-  #my-content2 { display: none; }   /* hide it elsewhere */
-  #my-content { display: none; }   /* hide it elsewhere */
-
-}
-
-@media (max-width: 575px) {
-
-  #my-content2 { display: none; }   /* hide it elsewhere */
-  #my-content { display: none; }   /* hide it elsewhere */
-
-@media (max-width: 320px) {
- #my-content2 { display: none; }   /* hide it elsewhere */
-  #my-content { display: none; }   /* hide it elsewhere */
-
-}
-
 
 
