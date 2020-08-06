@@ -237,6 +237,10 @@ body {
   border-bottom:double;
 }
 
+.classes-jumbotron {
+    background: rgba(0, 0, 0, 0.7);
+}
+
 .card-container {
 
   background: url("../image/gym10.jpg") no-repeat center;
