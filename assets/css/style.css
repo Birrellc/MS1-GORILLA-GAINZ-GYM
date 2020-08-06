@@ -11,14 +11,17 @@ body {
   color: whitesmoke;
 }
 
-p
-{font-family: "Montserrat", sans-serif;}
 
 /******************************* BUTTON COLOR*/
 .btn-red {
   color: white;
   background-color: red;
   border-color: red;}
+
+.btn-red:hover{
+  background-color:#bb0000;
+  border-color: #bb0000;
+  color: black;}
 
 
 /******************************** NAV SECTION*/
@@ -30,6 +33,10 @@ p
 .logo {
   height: 100px;
   width: 10%;
+}
+.nav-item-list{
+  flex-direction: row-reverse;
+  text-transform: uppercase;
 }
 
 .heading {
@@ -47,18 +54,19 @@ p
 .nav-item a:hover {
   color: #f70b0bd5 !important;
 }
+
+
+
 /******************************** JUMBOTRON - HOMEPAGE*/
 .jumbotron-home {
   height: 65vh;
   background: url("../image/man2.jpg") no-repeat center;
   background-size: cover;
-
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -76,7 +84,7 @@ p
 }
 
 .testimonial-text {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .blockquote-footer {
@@ -97,7 +105,9 @@ p
   max-height: 100%;
   font-family: "arvo", sans-serif;
 }
-
+.footer-paragraph {
+    font-family: "Montserrat", sans-serif;
+    }
 .address {
   max-width: 100%;
   line-height: 3px;
@@ -138,6 +148,10 @@ p
   text-transform: uppercase;
 }
 
+.footer-paragraph {
+  font-family: "Montserrat", sans-serif;
+}
+
 .footer-heading {
   color: red;
 }
@@ -159,19 +173,17 @@ p
     max-width:100%;
     padding:5px;}
   
-/************* classes page*/
+/************* CLASSES PAGE*/
 
 .jumbotron-classes {
   height: 45vh;
   background: url("../image/gym9.jpg") no-repeat center;
   background-size: cover;
-  max-height: 100%;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  align-items: center;
   justify-content: center;
 }
 
@@ -179,13 +191,12 @@ p
 
   background: url("../image/gym10.jpg") no-repeat center;
   background-size: cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  align-items: center;
   justify-content: center;
-  width:100%;
 
 }
 
@@ -223,7 +234,7 @@ height: 270px;
 }
 
 
-/********** CONTACT PAGE*/
+/************* CONTACT PAGE*/
 
 .contact-container {
     background: url("../image/gym11.jpg") no-repeat center;
@@ -246,7 +257,7 @@ height: 270px;
     }
 
 
-
+/************* CONTACT PAGE END*/
 
 
 
@@ -265,20 +276,23 @@ height: 270px;
     .nav-item-list {
         -webkit-box-pack: end;
         -ms-flex-pack: end;
+        -moz-box-flex: end;
         text-align: center;
         text-transform: uppercase;
-        font-size: 1.25rem;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 1.15rem;
     }
     
     .nav-item-list li {
         -webkit-box-pack: end;
         -ms-flex-pack: end;
+        -moz-box-flex: end;
         text-align: center;
-        text-transform: uppercase;
         padding-top: 5px;
         padding-bottom: 5px;
+        text-transform: uppercase;
+
     }
   #my-content2 { display: none; }   /* hide it elsewhere */
   #my-content { display: none; }   /* hide it elsewhere */
