@@ -70,7 +70,27 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top:double;
+  border-bottom:double;
 }
+.jumbotron-subtext {
+    color:#fafafa !important;
+    font-size:12px;
+    font-family: "arvo",sans-serif;
+}
+
+.jumbotron-heading {
+    align-items:center;
+    justify-content:center;
+    padding: 10px;
+    font-family: "arvo",sans-serif;
+    
+}
+
+.cta-section {
+    background: rgba(0, 0, 0, 0.7);
+}
+
 /******************* JUMBOTRON-HOMEPAGE END*/
 
 
@@ -88,7 +108,7 @@ body {
 }
 
 .testimonial-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .blockquote-footer {
@@ -204,6 +224,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top:double;
+  border-bottom:double;
 }
 
 .card-container {
