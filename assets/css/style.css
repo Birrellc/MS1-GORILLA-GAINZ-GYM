@@ -12,7 +12,7 @@ body {
 }
 
 
-/******************************* BUTTON COLOR*/
+/******************* BUTTON COLOR*/
 .btn-red {
   color: white;
   background-color: red;
@@ -23,8 +23,9 @@ body {
   border-color: #bb0000;
   color: black;}
 
+/******************* BUTTON COLOR END*/
 
-/******************************** NAV SECTION*/
+/******************* NAVIGATION*/
 .navbar {
   width: 100%;
   background: black;
@@ -55,9 +56,10 @@ body {
   color: #f70b0bd5 !important;
 }
 
+/******************* NAVIGATION END*/
 
 
-/******************************** JUMBOTRON - HOMEPAGE*/
+/******************* JUMBOTRON-HOMEPAGE*/
 .jumbotron-home {
   height: 65vh;
   background: url("../image/man2.jpg") no-repeat center;
@@ -69,8 +71,10 @@ body {
   align-items: center;
   justify-content: center;
 }
+/******************* JUMBOTRON-HOMEPAGE END*/
 
-/******************************** TESTIMONIALS*/
+
+/******************* TESTIMONIALS*/
 
 .testimonial-container {
   max-width: 100%;
@@ -92,7 +96,9 @@ body {
   font-weight: 600;
 }
 
-/********************************* FOOTER/SOCIAL LINKS*/
+/******************* TESTIMONIALS END*/
+
+/******************* FOOTER*/
 
 .social-container {
   
@@ -164,8 +170,21 @@ body {
 .contact a:hover{
   color:red !important;
 }
+/******************* FOOTER END*/
 
 
+/******************* MODAL*/
+.modal-dialog {
+    padding:0px;
+    color:black;
+    text-align:center;
+}
+
+.payment {
+    text-align:left;
+}
+
+/******************* MODAL END*/
 
 /************* GALLERY*/
 .row-eq-height { 
@@ -173,7 +192,7 @@ body {
     max-width:100%;
     padding:5px;}
   
-/************* CLASSES PAGE*/
+/******************* CLASSES PAGE*/
 
 .jumbotron-classes {
   height: 45vh;
@@ -234,7 +253,7 @@ height: 270px;
 }
 
 
-/************* CONTACT PAGE*/
+/******************* CONTACT PAGE*/
 
 .contact-container {
     background: url("../image/gym11.jpg") no-repeat center;
@@ -257,12 +276,7 @@ height: 270px;
     }
 
 
-/************* CONTACT PAGE END*/
-
-
-
-
-
+/******************* CONTACT PAGE END*/
 
 
 

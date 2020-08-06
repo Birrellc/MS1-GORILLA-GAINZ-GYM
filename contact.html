@@ -19,62 +19,65 @@
   </head>
 
   <body>
-	<!-- nav section -->
-	<div class="nav-container">
-		<div class="row no-gutter">
-			<div class="col-12">
-				<nav class="container-fluid; navbar navbar-expand-sm navbar-dark">
-					<a href="index.html" class="navbar-brand">
-						<h1 class="heading">GORILLA GAINZ</h1>
-					</a>
-					<button
+   <!------ nav section ------>
+    <div class="nav-container">
+      <div class="row no-gutter">
+        <div class="col-12">
+          <nav class="container-fluid; navbar navbar-expand-sm navbar-dark">
+            <a href="index.html" class="navbar-brand">
+              <h1 class="heading">GORILLA GAINZ</h1>
+            </a>
+            <button
               class="navbar-toggler"
               data-toggle="collapse"
               data-target="#navbarMenu"
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-					<div class="collapse navbar-collapse nav-item-list" id="navbarMenu">
-						<ul class="navbar-nav">
-							<li class="nav-item">
-								<a href="index.html" class="nav-link">HOME</a>
-							</li>
-							<li class="nav-item">
-								<a href="classes.html" class="nav-link">CLASSES</a>
-							</li>
-							<li class="nav-item">
-								<a href="gallery.html" class="nav-link">GALLERY</a>
-							</li>
-							<li class="nav-item">
-								<a href="contact.html" class="nav-link">CONTACT</a>
-							</li>
+            <div class="collapse navbar-collapse nav-item-list" id="navbarMenu">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a href="classes.html" class="nav-link">CLASSES</a>
+                </li>
+                <li class="nav-item">
+                  <a href="gallery.html" class="nav-link">GALLERY</a>
+                </li>
+                <li class="nav-item">
+                  <a href="contact.html" class="nav-link">CONTACT</a>
+                </li>
 
-							<li class="nav-item d-block d-sm-none"><a class="nav-link" href="#">SIGN UP</a></li>
-						</ul>
-					</div>
-					<div class="d-none d-md-block">
-						<a href="#Signup" class="btn btn-red">SIGN UP</a>
-					</div>
-				</nav>
+                <li class="nav-item d-block d-sm-none">
+                  <a class="nav-link" href="#signUpModal" data-toggle = "modal" data-target= "#signUpModal">SIGN UP</a>
+                </li>
+              </ul>
+            </div>
+           <div class="d-none d-md-block">
+              <a href="#signUpModal" data-toggle = "modal" data-target= "#signUpModal" class="btn btn-red">SIGN UP</a>
 
-			</div>
-		</div>
-	</div>
+            </div> 
+          </nav>
+        </div>
+      </div>
+    </div>
 
+<!------ Form section ------>
 
     <section class="contact-container text-center container-fluid">
-     <div class="row row h-100 justify-content-center align-items-center">
-          <div class="col-md-6">
-      <form class="contact-form " method="POST" action="">
-        
-            <div class="form-group ">
+      <div class="row row h-100 justify-content-center align-items-center">
+        <div class="col-md-6">
+          <form class="contact-form" method="POST" action="">
+            <div class="form-group">
               <label for="name">Your Name:</label>
               <input
                 type="text"
                 class="form-control"
                 id="name"
                 placeholder="eg. john smith"
-              required />
+                required
+              />
             </div>
             <div class="form-group">
               <label for="subject">Subject:</label>
@@ -83,7 +86,8 @@
                 class="form-control"
                 id="subject"
                 placeholder="eg. Classes query"
-              required />
+                required
+              />
             </div>
             <div class="form-group">
               <label for="message">Message:</label>
@@ -93,17 +97,17 @@
                 rows="5"
                 required
               ></textarea>
-              <button type="submit" class="btn form-btn btn-red ">Submit</button>
+              <button type="submit" class="btn form-btn btn-red">Submit</button>
             </div>
-             </form>
-          </div>
+          </form>
         </div>
-      
+      </div>
     </section>
 
- 
+<!------ Footer ------>
 
- <footer class="container-fluid social-container">
+
+    <footer class="container-fluid social-container">
       <div class="row">
         <div id="my-content" class="col-lg-4 text-center address">
           <h4 class="footer-heading">ADDRESS:</h4>
@@ -138,7 +142,9 @@
         <div id="my-content2" class="col-lg-4 text-center contact">
           <h4 class="footer-heading">CONTACT:</h4>
           <address>
-            <p class="footer-paragraph"><a href="tel:+0000 0000000"> Tel: 0000 0000000</a></p>
+            <p class="footer-paragraph">
+              <a href="tel:+0000 0000000"> Tel: 0000 0000000</a>
+            </p>
             <p class="footer-paragraph">
               <a href="mailto:Support@gorillagainz.com">
                 Email: Support@gorillagainz.com</a
@@ -148,6 +154,221 @@
         </div>
       </div>
     </footer>
+
+    <!----- Modal Section ----->
+
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center">SIGN UP</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+          <div class="modal-body">
+            <h5 class="mb-3">Billing address</h5>
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-2">
+                  <label for="firstName">First name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="eg: John"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Valid First Name is required.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-2">
+                  <label for="lastName">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="eg: Smith"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Valid Last Name is required.
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-2">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="you@example.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Valid Email Address is required.
+                </div>
+              </div>
+
+              <div class="mb-2">
+                <label for="address">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address"
+                  placeholder="1234 Main St"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Valid Address name is required.
+                </div>
+              </div>
+
+              <div class="mb-2">
+                <label for="postcode">Postcode </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="postcode"
+                  placeholder="NE1 52D"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Valid Postcode is required.
+                </div>
+              </div>
+
+              <div class="mb-2">
+                <label for="country">Country </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="country"
+                  placeholder="United Kingdom"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Valid Country is required.
+                </div>
+              </div>
+
+              <h4 class="mb-3">Payment</h4>
+
+              <div class="d-block my-3 payment">
+                <div class="custom-control custom-radio">
+                  <input
+                    id="credit"
+                    name="paymentMethod"
+                    type="radio"
+                    class="custom-control-input"
+                    checked
+                    required
+                  />
+                  <label class="custom-control-label" for="credit"
+                    >Credit card</label
+                  >
+                </div>
+                <div class="custom-control custom-radio">
+                  <input
+                    id="debit"
+                    name="paymentMethod"
+                    type="radio"
+                    class="custom-control-input"
+                    required
+                  />
+                  <label class="custom-control-label" for="debit"
+                    >Debit card</label
+                  >
+                </div>
+                <div class="custom-control custom-radio">
+                  <input
+                    id="paypal"
+                    name="paymentMethod"
+                    type="radio"
+                    class="custom-control-input"
+                    required
+                  />
+                  <label class="custom-control-label" for="paypal"
+                    >PayPal</label
+                  >
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-2">
+                  <label for="cc-name">Name on card</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cc-name"
+                    placeholder=""
+                    required
+                  />
+                  <small class="text-muted"
+                    >Full name as displayed on card</small
+                  >
+                  <div class="invalid-feedback">
+                    Name on card is required
+                  </div>
+                </div>
+                <div class="col-md-6 mb-2">
+                  <label for="cc-number">Credit card number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cc-number"
+                    placeholder=""
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Credit card number is required
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-2">
+                  <label for="cc-expiration">Expiration</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cc-expiration"
+                    placeholder=""
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Expiration date required
+                  </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="cc-cvv">CVV</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cc-cvv"
+                    placeholder=""
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Security code required
+                  </div>
+                </div>
+              </div>
+              <hr class="mb-2" />
+              <button class="btn btn-primary btn-lg btn-block" type="submit">
+                Checkout
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
