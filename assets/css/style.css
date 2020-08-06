@@ -30,11 +30,8 @@ body {
 
 /******************* NAVIGATION*/
 .navbar {
-    position: fixed;
-    top:0;
-    width: 100%;
     background: black;
-    z-index: 1;
+   
 
 }
 
@@ -89,7 +86,7 @@ body {
 .jumbotron-heading {
     align-items:center;
     justify-content:center;
-    padding: 10px;
+    padding-top: 30px;
     font-family: "arvo",sans-serif;
     
 }
@@ -249,7 +246,6 @@ body {
 .classes-jumbotron {
     background: rgba(0, 0, 0, 0.7);
 }
-
 .card-container {
 
     background: url("../image/classes-card-background.png") no-repeat center;
@@ -315,17 +311,6 @@ body {
     padding: 10px;
     }
 
-
-
-.contactus2-container {
-    background-color: rgba(255, 254, 254, 0.5);
-    height:45vh;
-}
-
-.locate-map {
-   
-    max-height: 70%;
-}
 
 /******************* CONTACT PAGE END*/
 
