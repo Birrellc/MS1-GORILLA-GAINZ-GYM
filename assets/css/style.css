@@ -218,8 +218,9 @@ body {
 
 .row-eq-height { 
     margin:auto;
-    max-width:100%;
-    padding:5px;}
+    padding:5px;
+    padding-bottom:30px;
+}
 
 .the-gym {
     padding-bottom: 30px;
