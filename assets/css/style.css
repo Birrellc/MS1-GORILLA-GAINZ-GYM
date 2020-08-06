@@ -12,7 +12,7 @@ body {
 }
 
 
-/******************* BUTTON COLOR*/
+/******************* BUTTON COLOR/MISC*/
 .btn-red {
   color: white;
   background-color: red;
@@ -22,6 +22,8 @@ body {
   background-color:#bb0000;
   border-color: #bb0000;
   color: black;}
+
+.uppercase {text-transform:uppercase;}
 
 /******************* BUTTON COLOR END*/
 
@@ -205,11 +207,20 @@ body {
 /******************* MODAL END*/
 
 /************* GALLERY*/
+
 .row-eq-height { 
     margin:auto;
     max-width:100%;
     padding:5px;}
-  
+
+.the-gym {
+    padding-bottom: 30px;
+    font-size:4rem;
+}
+.gym-container {
+    line-height:2px;
+}
+
 /******************* CLASSES PAGE*/
 
 .jumbotron-classes {
