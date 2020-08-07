@@ -50,7 +50,6 @@ Target Demographic:
 * Likes of fitness classes / free weights / machines
 * Professionals & people with disposable income
 
-
 ## Technologies
 The technologies i have used for this project are:
 
@@ -60,6 +59,21 @@ The technologies i have used for this project are:
 
 ## External resources
 
+[Stockvault](https://www.stockvault.net/) - Stock image resource.
+[Pexels](https://https://www.pexels.com/) - Stock image resource. 
+[Pinetools - Greyscale](https://pinetools.com/grayscale-image/) - This was used to convert all stock images for the website into black and white photos.
+[Tinypng](http://https://tinypng.com/) - Website used to compress my images to allow for faster loading times. 
+[Autoprefixer](http://autoprefixer.github.io/) - Used to add validators for other browsers eg. mozilla firefox.
+[Stack Overflow](https://fonts.google.com/) - Resource whcih provided the 3 fonts: Anton, Arvo & Montserrat for the website.
+[Font Awesome](https://fontawesome.com/) - Used to provide small icons for the website. eg. Testimonial quotes section.
+
+## Testing
+
+
+
 ## Deployment
 
+
+
 ## Credits
+
