@@ -17,12 +17,12 @@ body {
 .btn-red {
     color: white;
     background-color: red;
-    border-color: red;}
+}
 
 .btn-red:hover{
     background-color:#bb0000;
-    border-color: #bb0000;
-    color: black;}
+    color: black;
+}
 
 .uppercase {text-transform:uppercase;}
 
@@ -132,7 +132,6 @@ body {
     padding: 0px;
     border-top:double;
     border-color:white;
-    border-width:100%;
 }
 .footer-paragraph {
     font-family: "Montserrat", sans-serif;
@@ -266,7 +265,7 @@ body {
 
 .card {
     background: rgba(0,0,0,0.8);
-    align-items:top;
+    ;
 
 }
 
