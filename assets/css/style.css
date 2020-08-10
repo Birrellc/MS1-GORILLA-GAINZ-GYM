@@ -216,7 +216,7 @@ body {
 
 .row-eq-height { 
     margin:auto;
-    padding:5px;
+    padding:0 px;
     padding-bottom:30px;
 }
 
@@ -229,7 +229,10 @@ body {
 }
 #carouselExampleControls{
     margin-top: 0;
-    z-index: 1;
+}
+
+.gym-photos {
+    width:inherit;
 }
 
 /******************* CLASSES PAGE*/
