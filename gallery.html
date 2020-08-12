@@ -199,125 +199,249 @@
 
 <!----- Modal Section ----->
 
-  <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h4 class="modal-title text-center">SIGN UP</h4>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
+     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title text-center">SIGN UP</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
 
-        <div class="modal-body">
-          <h5 class="mb-3">Billing address</h5>
-          <form class="needs-validation" novalidate>
-            <div class="row">
-              <div class="col-md-6 mb-2">
-                <label for="firstName">First name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="eg: John" required>
-                <div class="invalid-feedback">
-                  Valid First Name is required.
+          <div class="modal-body">
+            <h5 class="mb-3">Billing address</h5>
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-2">
+                  <label for="firstName">First name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    placeholder="eg: John"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Valid First Name is required.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-2">
+                  <label for="lastName">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    placeholder="eg: Smith"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Valid Last Name is required.
+                  </div>
                 </div>
               </div>
-              <div class="col-md-6 mb-2">
-                <label for="lastName">Last name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="eg: Smith" required>
+
+              <div class="mb-2">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="you@example.com"
+                  required
+                />
                 <div class="invalid-feedback">
-                  Valid Last Name is required.
+                  Valid Email Address is required.
                 </div>
               </div>
-            </div>
 
-            <div class="mb-2">
-              <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
-              <div class="invalid-feedback">
-                Valid Email Address is required.
-              </div>
-            </div>
-
-            <div class="mb-2">
-              <label for="address">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
-              <div class="invalid-feedback">
-                Valid Address name is required.
-              </div>
-            </div>
-
-            <div class="mb-2">
-              <label for="postcode">Postcode </label>
-              <input type="text" class="form-control" id="postcode" placeholder="NE1 52D" required>
-              <div class="invalid-feedback">
-                Valid Postcode is required.
-              </div>
-            </div>
-
-
-            <div class="mb-2">
-              <label for="country">Country </label>
-              <input type="text" class="form-control" id="country" placeholder="United Kingdom" required>
-              <div class="invalid-feedback">
-                Valid Country is required.
-              </div>
-            </div>
-
-            <h4 class="mb-3">Payment</h4>
-
-            <div class="d-block my-3 payment">
-              <div class="custom-control custom-radio">
-                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                <label class="custom-control-label" for="credit">Credit card</label>
-              </div>
-              <div class="custom-control custom-radio">
-                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-                <label class="custom-control-label" for="debit">Debit card</label>
-              </div>
-              <div class="custom-control custom-radio">
-                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-                <label class="custom-control-label" for="paypal">PayPal</label>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 mb-2">
-                <label for="cc-name">Name on card</label>
-                <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                <small class="text-muted">Full name as displayed on card</small>
+              <div class="mb-2">
+                <label for="address">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="address"
+                  placeholder="1234 Main St"
+                  required
+                />
                 <div class="invalid-feedback">
-                  Name on card is required
+                  Valid Address name is required.
                 </div>
               </div>
-              <div class="col-md-6 mb-2">
-                <label for="cc-number">Credit card number</label>
-                <input type="text" class="form-control" id="cc-number" placeholder="" required>
+
+              <div class="mb-2">
+                <label for="postcode">Postcode </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="postcode"
+                  placeholder="NE1 52D"
+                  required
+                />
                 <div class="invalid-feedback">
-                  Credit card number is required
+                  Valid Postcode is required.
                 </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="col-md-3 mb-2">
-                <label for="cc-expiration">Expiration</label>
-                <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+
+              <div class="mb-2">
+                <label for="country">Country </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="country"
+                  placeholder="United Kingdom"
+                  required
+                />
                 <div class="invalid-feedback">
-                  Expiration date required
+                  Valid Country is required.
                 </div>
               </div>
-              <div class="col-md-3 mb-2">
-                <label for="cc-cvv">CVV</label>
-                <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-                <div class="invalid-feedback">
-                  Security code required
+
+              <h4 class="mb-3">Payment</h4>
+
+              <div class="d-block my-3 payment">
+                <div class="custom-control custom-radio">
+                  <input
+                    id="credit"
+                    name="paymentMethod"
+                    type="radio"
+                    class="custom-control-input"
+                    checked
+                    required
+                  />
+                  <label class="custom-control-label" for="credit"
+                    >Credit card</label
+                  >
+                </div>
+                <div class="custom-control custom-radio">
+                  <input
+                    id="debit"
+                    name="paymentMethod"
+                    type="radio"
+                    class="custom-control-input"
+                    required
+                  />
+                  <label class="custom-control-label" for="debit"
+                    >Debit card</label
+                  >
+                </div>
+                <div class="custom-control custom-radio">
+                  <input
+                    id="paypal"
+                    name="paymentMethod"
+                    type="radio"
+                    class="custom-control-input"
+                    required
+                  />
+                  <label class="custom-control-label" for="paypal"
+                    >PayPal</label
+                  >
                 </div>
               </div>
-            </div>
-            <hr class="mb-2">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Checkout</button>
-          </form>
+              <div class="row">
+                <div class="col-md-6 mb-2">
+                  <label for="cc-name">Name on card</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cc-name"
+                    placeholder=""
+                    required
+                  />
+                  <small class="text-muted"
+                    >Full name as displayed on card</small
+                  >
+                  <div class="invalid-feedback">
+                    Name on card is required
+                  </div>
+                </div>
+                <div class="col-md-6 mb-2">
+                  <label for="cc-number">Credit card number</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cc-number"
+                    placeholder=""
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Credit card number is required
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-2">
+                  <label for="cc-expiration">Expiration</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cc-expiration"
+                    placeholder=""
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Expiration date required
+                  </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                  <label for="cc-cvv">CVV</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cc-cvv"
+                    placeholder=""
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Security code required
+                  </div>
+                </div>
+              </div>
+              <h4 class="mb-3">Subscription Length</h4>
+
+              <div class="d-block my-3 subscription">
+                <div class="custom-control custom-radio">
+                  <input
+                    id="monthly"
+                    name="subscriptionType"
+                    type="radio"
+                    class="custom-control-input"
+                    checked
+                    required
+                  />
+                  <label class="custom-control-label" for="credit"
+                    >Monthly - £ 19.99</label
+                  >
+                </div>
+                <div class="custom-control custom-radio">
+                  <input
+                    id="annual"
+                    name="subscriptionType"
+                    type="radio"
+                    class="custom-control-input"
+                    required
+                  />
+                  <label class="custom-control-label" for="debit"
+                    >Annual - £ 190</label
+                  >
+                </div>
+
+               
+              <hr class="mb-2" />
+              <button class="btn btn-primary btn-lg btn-block" type="submit">
+                Checkout
+              </button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
     <script

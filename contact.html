@@ -170,7 +170,7 @@
 
     <!----- Modal Section ----->
 
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -373,10 +373,41 @@
                   </div>
                 </div>
               </div>
+              <h4 class="mb-3">Subscription Length</h4>
+
+              <div class="d-block my-3 subscription">
+                <div class="custom-control custom-radio">
+                  <input
+                    id="monthly"
+                    name="subscriptionType"
+                    type="radio"
+                    class="custom-control-input"
+                    checked
+                    required
+                  />
+                  <label class="custom-control-label" for="credit"
+                    >Monthly - £ 19.99</label
+                  >
+                </div>
+                <div class="custom-control custom-radio">
+                  <input
+                    id="annual"
+                    name="subscriptionType"
+                    type="radio"
+                    class="custom-control-input"
+                    required
+                  />
+                  <label class="custom-control-label" for="debit"
+                    >Annual - £ 190</label
+                  >
+                </div>
+
+               
               <hr class="mb-2" />
               <button class="btn btn-primary btn-lg btn-block" type="submit">
                 Checkout
               </button>
+              </div>
             </form>
           </div>
         </div>
