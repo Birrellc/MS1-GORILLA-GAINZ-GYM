@@ -69,7 +69,32 @@ The technologies i have used for this project are:
 
 ## Testing
 
+### User Story Testing:
 
+* The user would like to be able to sign up for the gym online.
+
+The user can achieve this by clicking the "sign up now!" button on the jumbotron of the homepage and also from "sign up" on the navbar of all pages - when clicked a modal launches asking for the customer
+details and payment plan choice which is then submitted. - Clicking signup via the navigation bar on all pages and also the sign up now button on the homepage successfully laumched the modal with all the correct information required.
+
+* The user would like to be able to browse which classes are available at the gym and also what time they are scheduled for.
+
+The user can see classes information by clicking "classes" on the navigation bar on which takes you to the classes page where details of all classes at the gym can be found at the bottom of the page. - By clicking "classes" link in the navigation bar i was able to access the correct page and information.
+
+* The user would like to be able to see the layout and equipment available in the gym.
+
+The user will see this by clicking on the "gallery" link on the navigation bar which takes the user to a page with a carousel showing gym images with 2 layout images below - clicking the gallery link took me to the correct page.
+
+* The user would like to be able to have access to the gyms social platforms to see if it is the right place for me. 
+
+The user will be able to complete the request by clicking on any of the social icons across the footer of all pages. - each link has been clicked and launches a new window tab with the correct social media site to the image
+
+* The user would like to be able to see the pricing of the gym and also its opening hours.
+
+The user can see this information in the main section of the homepage and the prices are also available again inside the signup modal - by loading the homepage i was able to see the information required was correctly displayed and same when i launched the signup modal link from all pages.
+
+* The user would like to be able to contact the company if any issues arise.
+
+The user can contact the company by clicking the contact section of the navigation bar and filling out the contact form or also looking at the footer across all pages which provides a clickable email and telephone number link - the contact form has been tested via the codeinstitue form dump and displays the correct data when submitted.
 
 ## Deployment
 
