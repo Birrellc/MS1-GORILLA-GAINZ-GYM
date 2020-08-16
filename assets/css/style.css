@@ -6,7 +6,7 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background: black;
+  background:#000000;
   font-family: "Montserrat", sans-serif;
   color: whitesmoke;
   padding-top: 70px;
@@ -15,13 +15,13 @@ body {
 
 /******************* BUTTON COLOR/MISC*/
 .btn-red {
-    color: white;
-    background-color: red;
+    color: #fff;
+    background-color: #f70303;
 }
 
 .btn-red:hover{
     background-color:#bb0000;
-    color: black;
+    color: #000000;
 }
 
 .uppercase {text-transform:uppercase;}
@@ -30,7 +30,7 @@ body {
 
 /******************* NAVIGATION*/
 .navbar {
-    background: black;
+    background: #000000;
     position:fixed;
     width:100%;
     top:0;
@@ -48,7 +48,7 @@ body {
 }
 
 .heading {
-    color: red;
+    color: #f70303;
     padding-top: 8px;
     padding-left: 10px;
     font-size: 2rem;
@@ -56,7 +56,7 @@ body {
 }
 
 .nav-item a {
-    color: white !important;
+    color: #fff !important;
 }
 
 .nav-item a:hover {
@@ -105,7 +105,7 @@ body {
 
 .testimonial-container {
     height: 190px;
-    background: red;
+    background: #f70303;
     
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 .blockquote-footer {
-    color: black;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -128,10 +128,10 @@ body {
 
 .social-container {
   
-    background: black;
+    background: #000000;
     padding: 0px;
     border-top:double;
-    border-color:white;
+    border-color:#fff;
 }
 .footer-paragraph {
     font-family: "Montserrat", sans-serif;
@@ -149,10 +149,10 @@ body {
 }
 
 .address a {
-    color: white !important;  
+    color: #fff !important;  
 }
 .address a:hover{
-    color:red !important;
+    color:#f70303 !important;
 }
 .social {
     
@@ -169,7 +169,7 @@ body {
 .social i {
     font-size: 200%;
     padding: 5%;
-    color: red;
+    color: #f70303;
   
 }
 
@@ -189,14 +189,14 @@ body {
 }
 
 .footer-heading {
-    color: red;
+    color: #f70303;
 }
 
 .contact a {
-    color: white !important;  
+    color: #fff !important;  
 }
 .contact a:hover{
-    color:red !important;
+    color:#f70303 !important;
 }
 /******************* FOOTER END*/
 
@@ -204,7 +204,7 @@ body {
 /******************* MODAL*/
 .modal-dialog {
     padding:0px;
-    color:black;
+    color:#000000;
     text-align:center;
 }
 
@@ -304,7 +304,7 @@ body {
 }
 
 .card-class {
-    color:red;
+    color:#f70303;
     font-family: "arvo", sans-serif;
     letter-spacing:2px;
 }
