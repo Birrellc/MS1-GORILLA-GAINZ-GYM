@@ -148,6 +148,12 @@ body {
   
 }
 
+.address a {
+    color: white !important;  
+}
+.address a:hover{
+    color:red !important;
+}
 .social {
     
     padding:0;
