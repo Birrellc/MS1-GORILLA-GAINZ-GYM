@@ -1,5 +1,6 @@
 # GORILLA GAINZ
 
+![picture](assets/readme-images/logo.png)
 
 ## Description
 
@@ -8,11 +9,14 @@
 A vintage styled website for a ficticious gym that combines the oldschool style and feel with new and modernised equipment and standards with added classes and availabilty of the facilities 24/7 in which the hope is to attract new members through an minimalistic easy to use website.
 
 
+
 ## Wireframe
 
 The completed wireframes for this project can be accesed by clicking here.
 
 ## UX
+
+![picture](assets/readme-images/responsive-view.png)
 
 This website is for a gym where the theme is more vintage bodybuilding meets current fitness, to accomplish this images and colours have been selected as black & white greyscale with a solid red to capture attention while not overloading the user with too much information which could distract from signing up to the gym. 
 
