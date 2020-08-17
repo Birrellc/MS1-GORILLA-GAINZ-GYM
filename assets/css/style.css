@@ -6,6 +6,7 @@ body {
   background:#000000;
   font-family: "Montserrat", sans-serif;
   color: #fafafa;
+  padding-top: 70px;
 }
 
 html {overflow-x:hidden;}
@@ -346,5 +347,3 @@ box-sizing: border-box;
 
 
 /******************* CONTACT PAGE END*/
-
-
