@@ -142,7 +142,13 @@ This issue was solved via the help of codeinstitute slack community where i was 
 
 ## Deployment
 
+*This site is hosted using GitHub pages.
 
+*The deployed site is hosted directly through github so all commits are live.
+
+*to deploy on github open: https://github.com/Birrellc/ms1-project-gym -> settings -> scroll to Guthub Pages -> Select Source -> Master Branch -> Save -> After page refresh scroll pack down to github pages section to see the deployed link.
+
+*for local use please visit: https://github.com/Birrellc/ms1-project-gym and clone the relevant code from the master branch by selecting code -> Then copy the url -> Open Git Bash on your system -> Change the current directory to where you want the clone to be made -> type "git clone" and paste the URL eg "https://github.com/Birrellc/ms1-project-gym.git" -> Press Enter to create your local clone
 
 ## Credits
 
