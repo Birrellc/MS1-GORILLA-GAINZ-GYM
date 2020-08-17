@@ -87,6 +87,19 @@ The technologies i have used for this project are:
 
 In order to help the website load faster all of the images were removed from the website and then uploaded to [Tinypng](http://https://tinypng.com/) in order to compress the images to more reasonable file sizes to increase loading speed.
 
+![picture](assets/readme-images/tinypng.png)
+
+### Speed Testing
+
+After compressing all the website images i then chose to run all my pages through [GT Metrix - Speed test](https://gtmetrix.com//) to get a view of the page load speeds to see if this website was suitable for the client to go live with. 
+
+![picture](assets/readme-images/index.png)
+
+![picture](assets/readme-images/classes.png)
+
+![picture](assets/readme-images/gallery.png)
+
+![picture](assets/readme-images/contact.png)
 
 ### User Story Testing:
 
