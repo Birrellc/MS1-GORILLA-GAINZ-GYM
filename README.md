@@ -142,13 +142,29 @@ This issue was solved via the help of codeinstitute slack community where i was 
 
 ## Deployment
 
-*This site is hosted using GitHub pages.
+* This site is hosted using GitHub pages.
 
-*The deployed site is hosted directly through github so all commits are live.
+* The deployed site is hosted directly through github so all commits are live.
 
-*to deploy on github open: https://github.com/Birrellc/ms1-project-gym -> settings -> scroll to Guthub Pages -> Select Source -> Master Branch -> Save -> After page refresh scroll pack down to github pages section to see the deployed link.
+* to deploy on github open: https://github.com/Birrellc/ms1-project-gym -> settings -> scroll to Guthub Pages -> Select Source -> Master Branch -> Save -> After page refresh scroll pack down to github pages section to see the deployed link.
 
-*for local use please visit: https://github.com/Birrellc/ms1-project-gym and clone the relevant code from the master branch by selecting code -> Then copy the url -> Open Git Bash on your system -> Change the current directory to where you want the clone to be made -> type "git clone" and paste the URL eg "https://github.com/Birrellc/ms1-project-gym.git" -> Press Enter to create your local clone
+* for local use please visit: https://github.com/Birrellc/ms1-project-gym and clone the relevant code from the master branch by selecting code -> Then copy the url -> Open Git Bash on your system -> Change the current directory to where you want the clone to be made -> type "git clone" and paste the URL eg "https://github.com/Birrellc/ms1-project-gym.git" -> Press Enter to create your local clone
 
 ## Credits
+
+* First Credits go to my mentor Felipe Alarcon and the Codeinstitute/slack group for the support and help with ideas with this project.
+
+### Inspiration
+* Inspiriation for this website comes solely from my interests in Health & Fitness
+
+### Media 
+
+* [Stockvault](https://www.stockvault.net/) 
+* [Pexels](https://https://www.pexels.com/)
+
+### Credited Code  
+* [Bootstrap](https://getbootstrap.com/) - Documents used for support with bootstrap classes, creation of my carousel's & grid system which this website is based on.
+* [Bootstrap - examples](https://getbootstrap.com/docs/4.0/examples/checkout/) - This link is where i got my sign up modal and i just modified it to suit the needs of my website.
+* [CSS-Tricks - Forum](https://css-tricks.com/forums/topic/overflow-x-hidden-on-htmlbody-element/) - This forum post was used to help me fix my overflow issue show in bugs section.
+* [Stackoverflow - Forum](https://stackoverflow.com/questions/49391266/change-bootstrap-4-carousel-control-colors/49391884) - I was having an issue where my carousel control switches on my gallery.html page were hard to see due to my greyscale image but with this code i was able to change the color to a shade of red.
 
