@@ -128,6 +128,18 @@ The user can see this information in the main section of the homepage and the pr
 
 The user can contact the company by clicking the contact section of the navigation bar and filling out the contact form or also looking at the footer across all pages which provides a clickable email and telephone number link - the contact form has been tested via the codeinstitue form dump and displays the correct data when submitted.
 
+### Project End Bug Testing
+
+#### Page overflow bug issue
+![picture](assets/readme-images/overflow-bug.gif)
+
+This was solved by adding the HTML element to the body section i had already in place to fix overflow in the style.css file - I had mistakenly forgotten to add this
+
+#### Carousel page reset issue
+![picture](assets/readme-images/carousel-bug.gif)
+
+This issue was solved via the help of codeinstitute slack community where i was informed i had overlooked adding the bootstrap carousel class "carousel-inner" to my outer carousel div which fixed the problem.
+
 ## Deployment
 
 
