@@ -1,5 +1,3 @@
-# GORILLA GAINZ
-
 ![picture](assets/readme-images/logo.png)
 
 ## Description
