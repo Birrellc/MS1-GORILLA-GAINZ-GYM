@@ -80,6 +80,7 @@ The technologies i have used for this project are:
 * [Autoprefixer](http://autoprefixer.github.io/) - Used to add validators for other browsers eg. mozilla firefox.
 * [Stack Overflow](https://fonts.google.com/) - Resource whcih provided the 3 fonts: Anton, Arvo & Montserrat for the website.
 * [Font Awesome](https://fontawesome.com/) - Used to provide small icons for the website. eg. Testimonial quotes section.
+* [Favicon](https://favicon.io/) - Used to create favicon for the website
 
 ## Testing
 
