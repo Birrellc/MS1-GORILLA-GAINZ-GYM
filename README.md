@@ -134,7 +134,7 @@ The user can contact the company by clicking the contact section of the navigati
 #### Page overflow bug issue
 ![picture](assets/readme-images/overflow-bug.gif)
 
-This was solved by adding the HTML element to the body section i had already in place to fix overflow in the style.css file - I had mistakenly forgotten to add this
+This was solved by adding "overflow-x: hidden" to html and body elements in style.css - see credit section for source
 
 #### Carousel page reset issue
 ![picture](assets/readme-images/carousel-bug.gif)
