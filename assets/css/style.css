@@ -220,41 +220,6 @@ body, html {
 
 /******************* MODAL END*/
 
-/************* GALLERY*/
-
-.carousel-container {
-    border-top:double;
-}
-
-.carousel-control-prev-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-next-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-.row-eq-height { 
-    margin:auto;
-    padding:0 px;
-    padding-bottom:30px;
-}
-
-.the-gym {
-    padding-bottom: 30px;
-    font-size:4rem;
-}
-.gym-container {
-    line-height:2px;
-}
-#carouselExampleControls{
-    margin-top: 0;
-}
-
-.gym-photos {
-    width:inherit;
-}
-
 /******************* CLASSES PAGE*/
 
 .jumbotron-classes {
@@ -315,6 +280,44 @@ body, html {
     letter-spacing:2px;
 }
 
+/******************* CLASSES PAGE END*/
+
+/******************* GALLERY PAGE*/
+
+.carousel-container {
+    border-top:double;
+}
+/*The carousel color change code below was taken from stack overflow (link credited in README)*/
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.row-eq-height { 
+    margin:auto;
+    padding:0 px;
+    padding-bottom:30px;
+}
+
+.the-gym {
+    padding-bottom: 30px;
+    font-size:4rem;
+}
+.gym-container {
+    line-height:2px;
+}
+#carouselExampleControls{
+    margin-top: 0;
+}
+
+.gym-photos {
+    width:inherit;
+}
+
+/******************* GALLERY PAGE END*/
 
 /******************* CONTACT PAGE*/
 
