@@ -81,6 +81,9 @@ The technologies i have used for this project are:
 * [Stack Overflow](https://fonts.google.com/) - Resource whcih provided the 3 fonts: Anton, Arvo & Montserrat for the website.
 * [Font Awesome](https://fontawesome.com/) - Used to provide small icons for the website. eg. Testimonial quotes section.
 * [Favicon](https://favicon.io/) - Used to create favicon for the website
+* [W3C HTML Validator](https://validator.w3.org/) - Used to test HTML code on the website.
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to test the CSS code on the website.
+* [GT Metrix - Speed test](https://gtmetrix.com//) - Used to test the loading speed of the website.
 
 ## Testing
 
