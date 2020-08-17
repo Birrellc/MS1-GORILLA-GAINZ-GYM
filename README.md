@@ -10,7 +10,7 @@ A vintage styled website for a ficticious gym that combines the oldschool style 
 
 ## Wireframe
 
-The completed wireframes for this project can be accesed by clicking here.
+The completed wireframes for this project can be accesed by clicking [Wireframes](https://github.com/Birrellc/ms1-project-gym/tree/master/assets/wireframe/) 
 
 ## UX
 
