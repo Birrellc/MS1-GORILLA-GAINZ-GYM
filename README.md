@@ -6,11 +6,11 @@
 
 A vintage styled website for a ficticious gym that combines the oldschool style and feel with new and modernised equipment and standards with added classes and availabilty of the facilities 24/7 in which the hope is to attract new members through an minimalistic easy to use website.
 
-
+[LIVE DEPLOYMENT](https://birrellc.github.io/MS1-GORILLA-GAINZ-GYM/) 
 
 ## Wireframe
 
-The completed wireframes for this project can be accesed by clicking [Wireframes](https://github.com/Birrellc/ms1-project-gym/tree/master/assets/wireframe/) 
+The completed wireframes for this project can be accesed by clicking [Wireframes](https://github.com/Birrellc/MS1-GORILLA-GAINZ-GYM/tree/master/assets/wireframe/) 
 
 ## UX
 
@@ -155,9 +155,9 @@ This issue was solved via the help of codeinstitute slack community where i was 
 
 * The deployed site is hosted directly through github so all commits are live.
 
-* to deploy on github open: https://github.com/Birrellc/ms1-project-gym -> settings -> scroll to Guthub Pages -> Select Source -> Master Branch -> Save -> After page refresh scroll pack down to github pages section to see the deployed link.
+* To deploy on github open: https://github.com/Birrellc/MS1-GORILLA-GAINZ-GYM -> settings -> scroll to Guthub Pages -> Select Source -> Master Branch -> Save -> After page refresh scroll pack down to github pages section to see the deployed link.
 
-* for local use please visit: https://github.com/Birrellc/ms1-project-gym and clone the relevant code from the master branch by selecting code -> Then copy the url -> Open Git Bash on your system -> Change the current directory to where you want the clone to be made -> type "git clone" and paste the URL eg "https://github.com/Birrellc/ms1-project-gym.git" -> Press Enter to create your local clone
+* For local use please visit: https://github.com/Birrellc/MS1-GORILLA-GAINZ-GYM and clone the relevant code from the master branch by selecting code -> Then copy the url -> Open Git Bash on your system -> Change the current directory to where you want the clone to be made -> type "git clone" and paste the URL eg "https://github.com/Birrellc/ms1-project-gym.git" -> Press Enter to create your local clone
 
 ## Credits
 
