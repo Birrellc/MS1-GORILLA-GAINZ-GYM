@@ -151,7 +151,7 @@ This issue was solved via the help of codeinstitute slack community where i was 
 
 ## Deployment
 
-* This site is hosted using GitHub pages.
+* [GORILLA GAINZ](https://birrellc.github.io/MS1-GORILLA-GAINZ-GYM/) site is hosted using GitHub pages.
 
 * The deployed site is hosted directly through github so all commits are live.
 
